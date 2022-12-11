@@ -20,6 +20,13 @@ function redraw()
   elseif mode == 1 then
     screen.move(0,20)
     screen.text("WILD")
+    screen.aa(1)
+    screen.line_width(2)
+    screen.move(60,30)
+    screen.line(80,40)
+    screen.line(90,10)
+    screen.close()
+    screen.stroke()
     screen.update()
   end
 end
